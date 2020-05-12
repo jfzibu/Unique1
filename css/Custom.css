@@ -1,0 +1,654 @@
+       @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,800;1,900&display=swap');
+       * {
+           padding: 0px;
+           margin: 0px;
+       }
+       
+       .container {
+           width: 1140px;
+           margin: 0px auto;
+       }
+       
+       .body {
+           font-family: 'Libre Franklin', sans-serif;
+           font-size: 14px;
+           line-height: 24px;
+           width: 1140 px;
+           ;
+       }
+       
+       h1,
+       h2,
+       h3,
+       h4,
+       h5,
+       h6 {
+           font-family: 'Libre Franklin', sans-serif;
+       }
+       
+       a,
+       a:hover {
+           font-family: 'Libre Franklin', sans-serif;
+           text-decoration: none;
+       }
+       
+       .col-md-12 {
+           width: 100%;
+       }
+       
+       .col-md-6 {
+           width: 50%;
+       }
+       
+       .col-md-4 {
+           width: 33.33%%;
+       }
+       
+       .col-md-3 {
+           width: 25%;
+       }
+       /* header Section start*/
+       
+       .header-section {
+           width: 100%;
+           background: url(../image/hero1.png) center top no-repeat;
+           background-size: cover;
+           padding: 10px 0px 80px;
+       }
+       
+       .header-section .bg-light {
+           background-color: transparent !important;
+       }
+       
+       .header-section .navbar-brand img {
+           width: 100px;
+       }
+       
+       .header-section .navbar-light .navbar-nav .nav-link:hover,
+       .header-section .navbar-nav .btn-link:hover {
+           color: #9777ef;
+           background: url(../image/border.png) center bottom no-repeat;
+           text-decoration: none;
+           font-weight: 600;
+       }
+       
+       .header-section .navbar-light .navbar-nav .nav-link {
+           color: rgba(0, 0, 0, .5);
+           font-size: 15px;
+           font-weight: 600;
+           margin: 0px 15px;
+           transition: 1sec;
+       }
+       
+       .header-section .navbar-nav .btn-link {
+           color: #000;
+           font-size: 14px;
+           font-weight: 500;
+           margin: 0px 15px;
+           transition: 1sec;
+       }
+       
+       .header-section .navbar-nav .btn-info {
+           font-size: 14px;
+           font-weight: 500;
+           color: #fff;
+           background: linear-gradient(to right, #6633cc 40%, #0066f0);
+           border: 1px solid #6633cc;
+           padding: 16px 55px;
+           border-radius: 35px;
+           margin-top: -5px;
+           text-transform: uppercase;
+           line-height: 3px;
+       }
+       
+       .header-section .navbar-nav .btn-info:hover {
+           background: transparent;
+           color: #6633cc;
+           background: linear-gradient(to right, #6633cc 40%, #0066f0);
+           border: 1px solid #6633cc;
+           transition: 1sec;
+       }
+       
+       .banner-inner {
+           width: 100%;
+           padding: 120px 0px 120px;
+       }
+       
+       .header-section .banner-inner h1 {
+           font-size: 65px;
+           line-height: 80px;
+           font-weight: 700;
+           margin: 30px 0px;
+           padding: 0px;
+       }
+       
+       .header-section .banner-inner h1 span {
+           color: #6633cc;
+       }
+       
+       .banner-inner .btn-info {
+           font-size: 15px;
+           font-weight: 500;
+           color: #000;
+           background: #f2f2f2;
+           border: 1px solid #f2f2f2;
+           padding: 14px 55px;
+           border-radius: 35px;
+           margin-bottom: 50px;
+           text-transform: uppercase;
+           letter-spacing: 2px;
+       }
+       
+       .banner-inner .btn-info:hover {
+           background: transparent;
+           color: #fff;
+           background: linear-gradient(to right, #6633cc 40%, #0066f0);
+           border: 1px solid #6633cc;
+           transition: 1sec;
+       }
+       
+       .banner-inner .btn-info .fa {
+           margin-left: 15px;
+       }
+       /* header Section end*/
+       /* highltght Section start*/
+       
+       .highlight {
+           width: 100%;
+           float: left;
+           padding: 100px 0px 70px;
+           background: url(../image/Highlight\ area.png) center bottom no-repeat;
+           background-size: cover;
+           margin: 0px 0px 60px;
+       }
+       
+       .highlight-inner {
+           width: 100%;
+           float: left;
+           text-align: center;
+           padding: 10px 0px;
+       }
+       
+       .highlight .highlight-inner h2 {
+           font-size: 32px;
+           color: #fff;
+           font-weight: 500;
+           line-height: 42px;
+           text-align: center;
+       }
+       /* highltght Section end*/
+       /* feature Section start*/
+       
+       .feature {
+           width: 100%;
+           padding: 120px 0px;
+           margin-bottom: 40px;
+       }
+       
+       .feature-inner {
+           width: 100%;
+           padding: 90px 100px;
+           background: url(../image/girlg.png) right bottom no-repeat;
+           background-size: cover;
+           box-shadow: 5px 10px 15px #ccc;
+           margin-top: 50px;
+       }
+       
+       .feature-inner h2 {
+           font-size: 48px;
+           color: #000;
+           font-weight: 800;
+           line-height: 52px;
+           margin-bottom: 40px;
+       }
+       
+       .feature-inner p {
+           font-size: 14px;
+           color: #000;
+           font-weight: 500;
+           line-height: 24px;
+           margin-bottom: 50px;
+           margin-top: 20px;
+       }
+       
+       .feature-inner .per span {
+           color: #6633cc;
+           font-size: 100px;
+           font-weight: 700;
+           margin-bottom: 60px;
+           color: linear-gradient(to right, #6633cc 20%, #0066f0);
+       }
+       
+       .feature-inner .per {
+           color: #000;
+           font-weight: 600;
+           line-height: 26px;
+           margin-top: 60px;
+       }
+       
+       .client {
+           width: 100%;
+           padding: 80px 0px;
+           margin: 40px;
+           text-align: center;
+       }
+       /* feature Section end*/
+       /* intro Section start*/
+       
+       .intro {
+           width: 100%;
+           padding: 120px 0px;
+           background: url(../image/Quote1.png) center top no-repeat;
+           background-size: cover;
+       }
+       
+       .bg-inner {
+           width: 100%;
+           padding: 90px 70px;
+           background: url(../image/Quote.png) center top no-repeat;
+       }
+       
+       .inner-content {
+           width: 100%;
+           padding: 100px 30px 100px 80px;
+       }
+       
+       .inner-content p {
+           font-size: 18px;
+           color: #fff;
+           line-height: 26px;
+           margin-left: 44px;
+           margin-top: -15px;
+       }
+       
+       .intro-inner {
+           width: 100%;
+           padding: 90px 0px 0px;
+       }
+       
+       .intro-inner h1 {
+           font-size: 42px;
+           line-height: 48px;
+           font-weight: 800;
+           margin-top: 30px;
+       }
+       
+       .intro-inner a {
+           width: 100%;
+           float: left;
+           font-size: 18px;
+           font-weight: 500;
+           color: #000;
+           margin-top: 30px;
+           margin-right: 20px;
+       }
+       
+       .intro-inner a {
+           width: 100%;
+       }
+       
+       .intro-inner .fa {
+           font-size: 14px;
+           color: #000;
+           margin-bottom: 50px;
+           margin-left: 15px;
+       }
+       
+       .intro-inner .btn-info:hover {}
+       
+       .intro-inner .btn-info .fa {
+           margin-left: 15px;
+       }
+       /* intro Section end*/
+       /* effi Section start*/
+       
+       .effi {
+           width: 100%;
+           padding: 80px 0px;
+           background: #fafafa;
+       }
+       
+       .effi-text {
+           width: 100%;
+       }
+       
+       .effi-text h1 {
+           font-size: 44px;
+           line-height: 50px;
+           font-weight: 900;
+           margin-bottom: 30px;
+       }
+       
+       .effi-text p {
+           font-size: 14px;
+           color: #666666;
+           font-weight: 500;
+           line-height: 24px;
+           margin-bottom: 40px;
+           text-align: left;
+       }
+       
+       .effi-text .titles p strong {
+           margin-left: 10px;
+       }
+       
+       .effi-text .titles {
+           width: 100%;
+       }
+       
+       .effi-text .titles p {
+           font-size: 14px;
+           color: #000;
+           font-weight: 400;
+           line-height: 24px;
+           margin-bottom: 15px;
+       }
+       
+       .effi-text .btn-info {
+           text-transform: uppercase;
+           letter-spacing: 3px;
+           font-size: 14px;
+           font-weight: 500;
+           color: #fff;
+           background: linear-gradient(to right, #6633cc 40%, #0066f0);
+           border: 1px solid #6633cc;
+           padding: 18px 55px;
+           border-radius: 35px;
+           margin-top: 30px;
+           text-transform: uppercase;
+           line-height: 3px;
+       }
+       
+       .effi-text .btn-info .btn-info:hover {
+           background: transparent;
+           color: #6633cc;
+           background: linear-gradient(to right, #6633cc 40%, #0066f0);
+           border: 1px solid #6633cc;
+           transition: 1sec;
+       }
+       
+       .effi-text .btn-info .fa {
+           margin-left: 15px;
+       }
+       /* effi Section end*/
+       /* design Section start*/
+       
+       .design {
+           width: 100%;
+           padding: 80px 0px;
+           background: #fcfcfc;
+           ;
+       }
+       
+       .design .main-title {
+           width: 100%;
+           padding: 80px 0px;
+           background: #fcfcfc;
+           padding: 0px 0px 80px;
+       }
+       
+       .design .main-title h1 {
+           font-size: 55px;
+           line-height: 58px;
+           font-weight: 900;
+           margin-bottom: 30px;
+       }
+       
+       .design .main-title p {
+           font-size: 16px;
+           line-height: 26px;
+           color: #000;
+           font-weight: 400;
+           line-height: 24px;
+       }
+       
+       .design .inner-design {
+           width: 100%;
+           padding: 20px 0px;
+           text-align: center;
+       }
+       
+       .design .inner-design img {
+           margin-bottom: 10px;
+           mix-blend-mode: darken;
+       }
+       
+       .design .inner-design h4 {
+           font-size: 26px;
+           line-height: 30px;
+           font-weight: 700;
+           margin-bottom: 10px;
+       }
+       
+       .design .inner-design p {
+           font-size: 16px;
+           color: #000;
+           font-weight: 600;
+           line-height: 24px;
+           margin-left: 0px;
+       }
+       
+       .bor {
+           border-left: 1px solid#eee;
+           border-right: 1px solid#eee;
+       }
+       /* design Section end*/
+       /* quote Section start*/
+       
+       .quote {
+           width: 100%;
+           padding: 80px 0px;
+       }
+       
+       .quote .title-quote {
+           width: 100%;
+           padding: 0px 0px 90px;
+       }
+       
+       .quote .title-quote h1 {
+           font-size: 60px;
+           line-height: 70px;
+           font-weight: 700;
+           margin-bottom: 25px;
+       }
+       
+       .quote-client {
+           width: 100%;
+           background: url(../image/Forma\ 01.png) center top no-repeat;
+           background-size: cover;
+           padding: 60px 0px;
+           box-shadow: 1px 10px 16px #ccc;
+           opacity: 0.7;
+       }
+       
+       .top-content {
+           width: 100%;
+           padding: 20px 30px 80px;
+       }
+       
+       .quote-client .top-content h5 {
+           font-size: 14px;
+           line-height: 26px;
+           font-weight: 600;
+           margin-bottom: 0px;
+           opacity: 0.7;
+       }
+       
+       .quote-client .bottom-content {
+           width: 100%;
+           padding: 35px 10px;
+           border-top: 1px solid #eee;
+           opacity: 0.7;
+       }
+       
+       .quote-client .bottom-content img {
+           width: 30%;
+           margin-bottom: 15px;
+       }
+       
+       .quote-client:hover .bottom-content img {
+           color: #6633cc;
+           opacity: 0.7;
+       }
+       
+       .quote-client .bottom-content h6 {
+           font-size: 14px;
+           line-height: 26px;
+           font-weight: 600;
+           text-transform: uppercase;
+           margin-bottom: 5px;
+           opacity: 0.7;
+       }
+       
+       .quote-client .bottom-content p {
+           font-size: 14px;
+           color: #969696;
+           font-weight: 400;
+           line-height: 24px;
+           text-transform: capitalize;
+           margin-bottom: 0px;
+           opacity: 0.7;
+       }
+       
+       .quote-client:hover .top-content h5 {
+           color: #6633cc;
+           opacity: 0.7;
+       }
+       
+       .quote-client:hover .bottom-content h6,
+       .quote-client:hover .bottom-content p {
+           color: #000;
+       }
+       /* quote Section end*/
+       /* footer Section start*/
+       
+       .
+       /* quote Section end*/
+       
+       .btn-link:focus {
+           color: #6633cc;
+       }
+       
+       .footer-section {
+           width: 100%;
+           padding: 80px 0px;
+           background: url(../image/footer.png) center bottom no-repeat;
+           background-size: cover;
+       }
+       
+       .faq {
+           width: 100%;
+           padding: 70px;
+           box-shadow: 4px 4px 4px #ccc;
+           background: #fff;
+       }
+       
+       .faq .title-faq {
+           width: 100%;
+           padding: 0px 0px 90px;
+           text-align: center;
+       }
+       
+       .faq .title-faq h1 {
+           font-size: 65px;
+           line-height: 75px;
+           font-weight: 900;
+           margin-bottom: 25px;
+       }
+       
+       .ask-inner {
+           width: 100%;
+       }
+       
+       .ask-inner .card-header {
+           padding: .75rem 1.25rem;
+           background-color: transparent;
+           margin-bottom: 0;
+           border-bottom: none;
+       }
+       
+       .ask-inner .card {
+           border: 0px;
+       }
+       
+       .ask-inner .card .btn {
+           padding: 10px 10px 0px;
+       }
+       
+       .ask-inner .card .btn-link {
+           font-weight: 600;
+           text-decoration: none;
+           font-size: 16px;
+       }
+       
+       .ask-inner .card .btn-link:focus {
+           text-decoration: none;
+       }
+       
+       .ask-inner .card .card-body {
+           font-size: 16px;
+           line-height: 24px;
+           color: #000;
+           margin-left: 12px;
+           font-weight: 500;
+       }
+       
+       .footer-menu {
+           width: 100%;
+           padding: 65px 0px 10px;
+       }
+       
+       .copy-right {
+           width: 100%;
+           padding: 65px 0px 10px;
+           text-align: right;
+           font-size: 18px;
+           font-weight: 600;
+       }
+       
+       .footer-menu .nav {
+           margin-top: 30px;
+       }
+       
+       .footer-menu .nav-link {
+           color: #fff;
+           font-size: 15px;
+           font-weight: 600;
+       }
+       
+       .copy-right h6 {
+           color: #fff;
+           font-size: 18px;
+           font-weight: 600;
+           margin-top: 40px;
+       }
+       /*footer Section end*/
+       
+       .portfolio {
+           width: 100%;
+           padding: 80px 0px;
+       }
+       
+       .port-item {
+           width: 100%;
+       }
+       
+       .port-item .mix {
+           width: 33.33%;
+           float: left;
+           padding: 0px 10px;
+           margin: 10px 0px;
+       }
+       
+       .isStuck {
+           left: 0px;
+           width: 100%;
+           background: #F5F7FA;
+       }
+       
+       .navbar-wrapper {
+           width: 100%;
+           margin-top: 0px;
+           position: relative;
+           z-index: 15;
+       }
